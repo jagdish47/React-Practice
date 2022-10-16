@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(31, 34, 34);
+  color: #fff;
+
+}
+
+.link-div ul{
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+.link-div ul li{
+  margin: 0px 20px 0px 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+}
+
+.btn {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.btn button {
+  background-color: teal;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: pointer;
+}
